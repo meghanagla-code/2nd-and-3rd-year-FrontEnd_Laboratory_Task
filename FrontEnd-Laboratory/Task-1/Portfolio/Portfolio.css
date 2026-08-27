@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #555;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/* Main */
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #333;
+}
+
+
+/* Figure */
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+
+/* Articles */
+
+article {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #333;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+
+/* Aside */
+
+aside {
+    background-color: #e6f3ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
