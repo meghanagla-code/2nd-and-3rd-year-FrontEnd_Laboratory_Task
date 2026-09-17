@@ -1,0 +1,116 @@
+/* Element Selector */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Header */
+
+header {
+    background-color: #3498db;       /* HEX color */
+    color: white;
+    padding: 25px;
+}
+
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+/* Pseudo-class Selector */
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/* ID Selector */
+
+#about {
+    background-color: rgb(46, 204, 113);     /* RGB color */
+    color: white;
+}
+
+
+/* Main */
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+/* Section */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+/* Class Selector */
+
+.intro {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Ordered List */
+
+.movie-list {
+    list-style-type: upper-roman;
+    padding: 20px;
+}
+
+
+/* Unordered List */
+
+.city-list {
+    list-style-type: square;
+    padding: 20px;
+}
+
+
+/* Pseudo-class Selector */
+
+.movie-list li:hover {
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+}
+
+.city-list li:hover {
+    background-color: rgb(46, 204, 113);
+    color: white;
+    padding: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
